@@ -30,10 +30,13 @@ boxes.forEach((box) => {
     //giving the condition to the player.
     if (turn0 === true) {
       box.innerText = "0";
+      box.classList.add("different");
+      // box.classList.add("different");
       //assigning the value false for the turn0.
       turn0 = false;
     } else {
       box.innerText = "x";
+      box.classList.remove("different");
       turn0 = true;
     }
     box.disabled = true;

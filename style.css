@@ -74,3 +74,7 @@ body {
 .hide {
   display: none;
 }
+
+.different {
+  color: rgb(16, 120, 16);
+}
